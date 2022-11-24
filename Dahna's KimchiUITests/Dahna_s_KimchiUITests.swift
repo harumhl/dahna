@@ -1,13 +1,13 @@
 //
-//  Dhana_s_KimchiUITests.swift
-//  Dhana's KimchiUITests
+//  Dahna_s_KimchiUITests.swift
+//  Dahna's KimchiUITests
 //
 //  Created by Haru Lee on 11/24/22.
 //
 
 import XCTest
 
-final class Dhana_s_KimchiUITests: XCTestCase {
+final class Dahna_s_KimchiUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

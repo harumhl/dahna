@@ -7,7 +7,7 @@
 
 import XCTest
 
-final class Dhana_s_KimchiTests: XCTestCase {
+final class Dahna_s_KimchiTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

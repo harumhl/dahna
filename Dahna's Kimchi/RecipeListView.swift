@@ -7,21 +7,28 @@
 
 import SwiftUI
 
+let recipes: [Recipe] = [
+    Recipe( title: "김치볶음밥",
+            content: "재료는 김치, 밥, 고기"),
+    Recipe( title: "감치부침개",
+            content: "재료는 김치, 부침가루" ),
+    Recipe( title: "김치찌게",
+            content: "재료는 김치, 물, 고기" )
+]
+
 struct Recipe : Identifiable {
-   let id = UUID()
-   let title: String
+    let id = UUID()
+    let title: String
+    let content: String
 }
 
 struct RecipeListView: View {
-    let recipes: [Recipe] = [
-        Recipe( title: "김치볶음밥" ),
-        Recipe( title: "감치부침개" ),
-        Recipe( title: "김치찌게" )
-    ]
     var body: some View {
         NavigationView {
             List(recipes) { recipe in
-                Text(recipe.title)
+                NavigationLink(destination: RecipeContentView(recipe: recipe)) {
+                    Text(recipe.title)
+                }
             }
             .navigationTitle("Recipe")
         }

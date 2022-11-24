@@ -8,13 +8,18 @@
 import SwiftUI
 
 struct RecipeContentView: View {
+    let recipe: Recipe
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            Text(recipe.content)
+                .navigationTitle(recipe.title)
+        }
     }
 }
 
 struct RecipeContentView_Previews: PreviewProvider {
     static var previews: some View {
-        RecipeContentView()
+        RecipeContentView(recipe: recipes[0])
     }
 }

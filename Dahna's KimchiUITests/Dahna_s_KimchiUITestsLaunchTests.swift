@@ -1,13 +1,13 @@
 //
-//  Dhana_s_KimchiUITestsLaunchTests.swift
-//  Dhana's KimchiUITests
+//  Dahna_s_KimchiUITestsLaunchTests.swift
+//  Dahna's KimchiUITests
 //
 //  Created by Haru Lee on 11/24/22.
 //
 
 import XCTest
 
-final class Dhana_s_KimchiUITestsLaunchTests: XCTestCase {
+final class Dahna_s_KimchiUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
