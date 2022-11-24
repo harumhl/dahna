@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct MainView: View {
     var body: some View {
         NavigationView {
             List {
@@ -17,11 +17,17 @@ struct ContentView: View {
             }
             .navigationTitle("Recipe")
         }
+//        TabView {
+//            ContentView()
+//                .tabItem {
+//                    Label("Menu", systemImage: "list.dash")
+//                }
+//        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        MainView()
     }
 }
