@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		D44FF168292FC66700B9B0DC /* Dhana_s_KimchiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44FF167292FC66700B9B0DC /* Dhana_s_KimchiApp.swift */; };
-		D44FF16A292FC66700B9B0DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44FF169292FC66700B9B0DC /* ContentView.swift */; };
+		D44FF16A292FC66700B9B0DC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44FF169292FC66700B9B0DC /* MainView.swift */; };
 		D44FF16C292FC66900B9B0DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D44FF16B292FC66900B9B0DC /* Assets.xcassets */; };
 		D44FF170292FC66900B9B0DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D44FF16F292FC66900B9B0DC /* Preview Assets.xcassets */; };
 		D44FF17A292FC66A00B9B0DC /* Dhana_s_KimchiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44FF179292FC66A00B9B0DC /* Dhana_s_KimchiTests.swift */; };
 		D44FF184292FC66A00B9B0DC /* Dhana_s_KimchiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44FF183292FC66A00B9B0DC /* Dhana_s_KimchiUITests.swift */; };
 		D44FF186292FC66A00B9B0DC /* Dhana_s_KimchiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44FF185292FC66A00B9B0DC /* Dhana_s_KimchiUITestsLaunchTests.swift */; };
+		D44FF195292FE2D700B9B0DC /* RecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44FF194292FE2D700B9B0DC /* RecipeListView.swift */; };
+		D44FF197292FE43C00B9B0DC /* RecipeContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44FF196292FE43C00B9B0DC /* RecipeContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		D44FF164292FC66700B9B0DC /* Dhana's Kimchi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dhana's Kimchi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D44FF167292FC66700B9B0DC /* Dhana_s_KimchiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dhana_s_KimchiApp.swift; sourceTree = "<group>"; };
-		D44FF169292FC66700B9B0DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D44FF169292FC66700B9B0DC /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		D44FF16B292FC66900B9B0DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D44FF16D292FC66900B9B0DC /* Dhana_s_Kimchi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Dhana_s_Kimchi.entitlements; sourceTree = "<group>"; };
 		D44FF16F292FC66900B9B0DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +47,8 @@
 		D44FF17F292FC66A00B9B0DC /* Dhana's KimchiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dhana's KimchiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D44FF183292FC66A00B9B0DC /* Dhana_s_KimchiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dhana_s_KimchiUITests.swift; sourceTree = "<group>"; };
 		D44FF185292FC66A00B9B0DC /* Dhana_s_KimchiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dhana_s_KimchiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D44FF194292FE2D700B9B0DC /* RecipeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListView.swift; sourceTree = "<group>"; };
+		D44FF196292FE43C00B9B0DC /* RecipeContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				D44FF167292FC66700B9B0DC /* Dhana_s_KimchiApp.swift */,
-				D44FF169292FC66700B9B0DC /* ContentView.swift */,
+				D44FF169292FC66700B9B0DC /* MainView.swift */,
+				D44FF194292FE2D700B9B0DC /* RecipeListView.swift */,
+				D44FF196292FE43C00B9B0DC /* RecipeContentView.swift */,
 				D44FF16B292FC66900B9B0DC /* Assets.xcassets */,
 				D44FF16D292FC66900B9B0DC /* Dhana_s_Kimchi.entitlements */,
 				D44FF16E292FC66900B9B0DC /* Preview Content */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D44FF16A292FC66700B9B0DC /* ContentView.swift in Sources */,
+				D44FF197292FE43C00B9B0DC /* RecipeContentView.swift in Sources */,
+				D44FF16A292FC66700B9B0DC /* MainView.swift in Sources */,
 				D44FF168292FC66700B9B0DC /* Dhana_s_KimchiApp.swift in Sources */,
+				D44FF195292FE2D700B9B0DC /* RecipeListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

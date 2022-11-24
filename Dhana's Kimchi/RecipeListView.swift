@@ -7,20 +7,28 @@
 
 import SwiftUI
 
+struct Recipe : Identifiable {
+   let id = UUID()
+   let title: String
+}
+
 struct RecipeListView: View {
+    let recipes: [Recipe] = [
+        Recipe( title: "김치볶음밥" ),
+        Recipe( title: "감치부침개" ),
+        Recipe( title: "김치찌게" )
+    ]
     var body: some View {
         NavigationView {
-            List {
-                Text("김치볶음밥")
-                Text("감치부침개")
-                Text("김치찌게")
+            List(recipes) { recipe in
+                Text(recipe.title)
             }
             .navigationTitle("Recipe")
         }
     }
 }
 
-struct RecipeView_Previews: PreviewProvider {
+struct RecipeListView_Previews: PreviewProvider {
     static var previews: some View {
         RecipeListView()
     }

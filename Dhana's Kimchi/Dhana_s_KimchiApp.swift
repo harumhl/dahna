@@ -11,7 +11,7 @@ import SwiftUI
 struct Dhana_s_KimchiApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
