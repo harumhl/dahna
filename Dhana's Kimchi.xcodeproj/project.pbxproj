@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D44FF168292FC66700B9B0DC /* Dhana_s_KimchiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44FF167292FC66700B9B0DC /* Dhana_s_KimchiApp.swift */; };
+		D44FF16A292FC66700B9B0DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44FF169292FC66700B9B0DC /* ContentView.swift */; };
+		D44FF16C292FC66900B9B0DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D44FF16B292FC66900B9B0DC /* Assets.xcassets */; };
+		D44FF170292FC66900B9B0DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D44FF16F292FC66900B9B0DC /* Preview Assets.xcassets */; };
+		D44FF17A292FC66A00B9B0DC /* Dhana_s_KimchiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44FF179292FC66A00B9B0DC /* Dhana_s_KimchiTests.swift */; };
+		D44FF184292FC66A00B9B0DC /* Dhana_s_KimchiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44FF183292FC66A00B9B0DC /* Dhana_s_KimchiUITests.swift */; };
+		D44FF186292FC66A00B9B0DC /* Dhana_s_KimchiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44FF185292FC66A00B9B0DC /* Dhana_s_KimchiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D44FF176292FC66A00B9B0DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D44FF15C292FC66700B9B0DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D44FF163292FC66700B9B0DC;
+			remoteInfo = "Dhana's Kimchi";
+		};
+		D44FF180292FC66A00B9B0DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D44FF15C292FC66700B9B0DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D44FF163292FC66700B9B0DC;
+			remoteInfo = "Dhana's Kimchi";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D44FF164292FC66700B9B0DC /* Dhana's Kimchi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dhana's Kimchi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D44FF167292FC66700B9B0DC /* Dhana_s_KimchiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dhana_s_KimchiApp.swift; sourceTree = "<group>"; };
+		D44FF169292FC66700B9B0DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D44FF16B292FC66900B9B0DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D44FF16D292FC66900B9B0DC /* Dhana_s_Kimchi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Dhana_s_Kimchi.entitlements; sourceTree = "<group>"; };
+		D44FF16F292FC66900B9B0DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D44FF175292FC66A00B9B0DC /* Dhana's KimchiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dhana's KimchiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D44FF179292FC66A00B9B0DC /* Dhana_s_KimchiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dhana_s_KimchiTests.swift; sourceTree = "<group>"; };
+		D44FF17F292FC66A00B9B0DC /* Dhana's KimchiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dhana's KimchiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D44FF183292FC66A00B9B0DC /* Dhana_s_KimchiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dhana_s_KimchiUITests.swift; sourceTree = "<group>"; };
+		D44FF185292FC66A00B9B0DC /* Dhana_s_KimchiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dhana_s_KimchiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D44FF161292FC66700B9B0DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D44FF172292FC66A00B9B0DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D44FF17C292FC66A00B9B0DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D44FF15B292FC66700B9B0DC = {
+			isa = PBXGroup;
+			children = (
+				D44FF166292FC66700B9B0DC /* Dhana's Kimchi */,
+				D44FF178292FC66A00B9B0DC /* Dhana's KimchiTests */,
+				D44FF182292FC66A00B9B0DC /* Dhana's KimchiUITests */,
+				D44FF165292FC66700B9B0DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D44FF165292FC66700B9B0DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D44FF164292FC66700B9B0DC /* Dhana's Kimchi.app */,
+				D44FF175292FC66A00B9B0DC /* Dhana's KimchiTests.xctest */,
+				D44FF17F292FC66A00B9B0DC /* Dhana's KimchiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D44FF166292FC66700B9B0DC /* Dhana's Kimchi */ = {
+			isa = PBXGroup;
+			children = (
+				D44FF167292FC66700B9B0DC /* Dhana_s_KimchiApp.swift */,
+				D44FF169292FC66700B9B0DC /* ContentView.swift */,
+				D44FF16B292FC66900B9B0DC /* Assets.xcassets */,
+				D44FF16D292FC66900B9B0DC /* Dhana_s_Kimchi.entitlements */,
+				D44FF16E292FC66900B9B0DC /* Preview Content */,
+			);
+			path = "Dhana's Kimchi";
+			sourceTree = "<group>";
+		};
+		D44FF16E292FC66900B9B0DC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D44FF16F292FC66900B9B0DC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D44FF178292FC66A00B9B0DC /* Dhana's KimchiTests */ = {
+			isa = PBXGroup;
+			children = (
+				D44FF179292FC66A00B9B0DC /* Dhana_s_KimchiTests.swift */,
+			);
+			path = "Dhana's KimchiTests";
+			sourceTree = "<group>";
+		};
+		D44FF182292FC66A00B9B0DC /* Dhana's KimchiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D44FF183292FC66A00B9B0DC /* Dhana_s_KimchiUITests.swift */,
+				D44FF185292FC66A00B9B0DC /* Dhana_s_KimchiUITestsLaunchTests.swift */,
+			);
+			path = "Dhana's KimchiUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D44FF163292FC66700B9B0DC /* Dhana's Kimchi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D44FF189292FC66A00B9B0DC /* Build configuration list for PBXNativeTarget "Dhana's Kimchi" */;
+			buildPhases = (
+				D44FF160292FC66700B9B0DC /* Sources */,
+				D44FF161292FC66700B9B0DC /* Frameworks */,
+				D44FF162292FC66700B9B0DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dhana's Kimchi";
+			productName = "Dhana's Kimchi";
+			productReference = D44FF164292FC66700B9B0DC /* Dhana's Kimchi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D44FF174292FC66A00B9B0DC /* Dhana's KimchiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D44FF18C292FC66A00B9B0DC /* Build configuration list for PBXNativeTarget "Dhana's KimchiTests" */;
+			buildPhases = (
+				D44FF171292FC66A00B9B0DC /* Sources */,
+				D44FF172292FC66A00B9B0DC /* Frameworks */,
+				D44FF173292FC66A00B9B0DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D44FF177292FC66A00B9B0DC /* PBXTargetDependency */,
+			);
+			name = "Dhana's KimchiTests";
+			productName = "Dhana's KimchiTests";
+			productReference = D44FF175292FC66A00B9B0DC /* Dhana's KimchiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D44FF17E292FC66A00B9B0DC /* Dhana's KimchiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D44FF18F292FC66A00B9B0DC /* Build configuration list for PBXNativeTarget "Dhana's KimchiUITests" */;
+			buildPhases = (
+				D44FF17B292FC66A00B9B0DC /* Sources */,
+				D44FF17C292FC66A00B9B0DC /* Frameworks */,
+				D44FF17D292FC66A00B9B0DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D44FF181292FC66A00B9B0DC /* PBXTargetDependency */,
+			);
+			name = "Dhana's KimchiUITests";
+			productName = "Dhana's KimchiUITests";
+			productReference = D44FF17F292FC66A00B9B0DC /* Dhana's KimchiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D44FF15C292FC66700B9B0DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					D44FF163292FC66700B9B0DC = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					D44FF174292FC66A00B9B0DC = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = D44FF163292FC66700B9B0DC;
+					};
+					D44FF17E292FC66A00B9B0DC = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = D44FF163292FC66700B9B0DC;
+					};
+				};
+			};
+			buildConfigurationList = D44FF15F292FC66700B9B0DC /* Build configuration list for PBXProject "Dhana's Kimchi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D44FF15B292FC66700B9B0DC;
+			productRefGroup = D44FF165292FC66700B9B0DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D44FF163292FC66700B9B0DC /* Dhana's Kimchi */,
+				D44FF174292FC66A00B9B0DC /* Dhana's KimchiTests */,
+				D44FF17E292FC66A00B9B0DC /* Dhana's KimchiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D44FF162292FC66700B9B0DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D44FF170292FC66900B9B0DC /* Preview Assets.xcassets in Resources */,
+				D44FF16C292FC66900B9B0DC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D44FF173292FC66A00B9B0DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D44FF17D292FC66A00B9B0DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D44FF160292FC66700B9B0DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D44FF16A292FC66700B9B0DC /* ContentView.swift in Sources */,
+				D44FF168292FC66700B9B0DC /* Dhana_s_KimchiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D44FF171292FC66A00B9B0DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D44FF17A292FC66A00B9B0DC /* Dhana_s_KimchiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D44FF17B292FC66A00B9B0DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D44FF186292FC66A00B9B0DC /* Dhana_s_KimchiUITestsLaunchTests.swift in Sources */,
+				D44FF184292FC66A00B9B0DC /* Dhana_s_KimchiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D44FF177292FC66A00B9B0DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D44FF163292FC66700B9B0DC /* Dhana's Kimchi */;
+			targetProxy = D44FF176292FC66A00B9B0DC /* PBXContainerItemProxy */;
+		};
+		D44FF181292FC66A00B9B0DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D44FF163292FC66700B9B0DC /* Dhana's Kimchi */;
+			targetProxy = D44FF180292FC66A00B9B0DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D44FF187292FC66A00B9B0DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D44FF188292FC66A00B9B0DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D44FF18A292FC66A00B9B0DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Dhana's Kimchi/Dhana_s_Kimchi.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dhana's Kimchi/Preview Content\"";
+				DEVELOPMENT_TEAM = 2K7ABR368C;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dhana.Dhana-s-Kimchi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D44FF18B292FC66A00B9B0DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Dhana's Kimchi/Dhana_s_Kimchi.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dhana's Kimchi/Preview Content\"";
+				DEVELOPMENT_TEAM = 2K7ABR368C;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dhana.Dhana-s-Kimchi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D44FF18D292FC66A00B9B0DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2K7ABR368C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dhana.Dhana-s-KimchiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dhana's Kimchi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dhana's Kimchi";
+			};
+			name = Debug;
+		};
+		D44FF18E292FC66A00B9B0DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2K7ABR368C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dhana.Dhana-s-KimchiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dhana's Kimchi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dhana's Kimchi";
+			};
+			name = Release;
+		};
+		D44FF190292FC66A00B9B0DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2K7ABR368C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dhana.Dhana-s-KimchiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dhana's Kimchi";
+			};
+			name = Debug;
+		};
+		D44FF191292FC66A00B9B0DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2K7ABR368C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dhana.Dhana-s-KimchiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dhana's Kimchi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D44FF15F292FC66700B9B0DC /* Build configuration list for PBXProject "Dhana's Kimchi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D44FF187292FC66A00B9B0DC /* Debug */,
+				D44FF188292FC66A00B9B0DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D44FF189292FC66A00B9B0DC /* Build configuration list for PBXNativeTarget "Dhana's Kimchi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D44FF18A292FC66A00B9B0DC /* Debug */,
+				D44FF18B292FC66A00B9B0DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D44FF18C292FC66A00B9B0DC /* Build configuration list for PBXNativeTarget "Dhana's KimchiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D44FF18D292FC66A00B9B0DC /* Debug */,
+				D44FF18E292FC66A00B9B0DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D44FF18F292FC66A00B9B0DC /* Build configuration list for PBXNativeTarget "Dhana's KimchiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D44FF190292FC66A00B9B0DC /* Debug */,
+				D44FF191292FC66A00B9B0DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D44FF15C292FC66700B9B0DC /* Project object */;
+}
