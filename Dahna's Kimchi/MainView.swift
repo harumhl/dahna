@@ -12,7 +12,11 @@ struct MainView: View {
         TabView {
             RecipeListView()
                 .tabItem {
-                    Label("Recipes", systemImage: "list.dash")
+                    Label("조리법", systemImage: "list.dash")
+                }
+            IngredientsView()
+                .tabItem {
+                    Label("재료", systemImage: "list.dash")
                 }
         }
     }

@@ -16,6 +16,7 @@
 		D44FF186292FC66A00B9B0DC /* Dahna_s_KimchiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44FF185292FC66A00B9B0DC /* Dahna_s_KimchiUITestsLaunchTests.swift */; };
 		D44FF195292FE2D700B9B0DC /* RecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44FF194292FE2D700B9B0DC /* RecipeListView.swift */; };
 		D44FF197292FE43C00B9B0DC /* RecipeContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44FF196292FE43C00B9B0DC /* RecipeContentView.swift */; };
+		D450590B29A297150009964F /* IngredientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D450590A29A297150009964F /* IngredientsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D44FF185292FC66A00B9B0DC /* Dahna_s_KimchiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dahna_s_KimchiUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D44FF194292FE2D700B9B0DC /* RecipeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListView.swift; sourceTree = "<group>"; };
 		D44FF196292FE43C00B9B0DC /* RecipeContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeContentView.swift; sourceTree = "<group>"; };
+		D450590A29A297150009964F /* IngredientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				D44FF169292FC66700B9B0DC /* MainView.swift */,
 				D44FF194292FE2D700B9B0DC /* RecipeListView.swift */,
 				D44FF196292FE43C00B9B0DC /* RecipeContentView.swift */,
+				D450590A29A297150009964F /* IngredientsView.swift */,
 				D44FF16B292FC66900B9B0DC /* Assets.xcassets */,
 				D44FF16D292FC66900B9B0DC /* Dahna_s_Kimchi.entitlements */,
 				D44FF16E292FC66900B9B0DC /* Preview Content */,
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D44FF197292FE43C00B9B0DC /* RecipeContentView.swift in Sources */,
+				D450590B29A297150009964F /* IngredientsView.swift in Sources */,
 				D44FF16A292FC66700B9B0DC /* MainView.swift in Sources */,
 				D44FF168292FC66700B9B0DC /* Dahna_s_KimchiApp.swift in Sources */,
 				D44FF195292FE2D700B9B0DC /* RecipeListView.swift in Sources */,
