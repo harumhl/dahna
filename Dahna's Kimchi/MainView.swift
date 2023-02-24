@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// Command + Shift + L to see systemImage list
+
 struct MainView: View {
     var body: some View {
         TabView {
@@ -17,6 +19,10 @@ struct MainView: View {
             IngredientsView()
                 .tabItem {
                     Label("재료", systemImage: "list.dash")
+                }
+            SettingsView()
+                .tabItem {
+                    Label("설정", systemImage: "gear.circle")
                 }
         }
     }

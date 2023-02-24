@@ -17,6 +17,9 @@
 		D44FF195292FE2D700B9B0DC /* RecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44FF194292FE2D700B9B0DC /* RecipeListView.swift */; };
 		D44FF197292FE43C00B9B0DC /* RecipeContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44FF196292FE43C00B9B0DC /* RecipeContentView.swift */; };
 		D450590B29A297150009964F /* IngredientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D450590A29A297150009964F /* IngredientsView.swift */; };
+		D461B96D29A968C6001661AF /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D461B96C29A968C6001661AF /* SettingsView.swift */; };
+		D461B96F29A9691E001661AF /* lang.swift in Sources */ = {isa = PBXBuildFile; fileRef = D461B96E29A9691E001661AF /* lang.swift */; };
+		D461B97229A9700F001661AF /* OrderedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = D461B97129A9700F001661AF /* OrderedCollections */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,8 @@
 		D44FF194292FE2D700B9B0DC /* RecipeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListView.swift; sourceTree = "<group>"; };
 		D44FF196292FE43C00B9B0DC /* RecipeContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeContentView.swift; sourceTree = "<group>"; };
 		D450590A29A297150009964F /* IngredientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsView.swift; sourceTree = "<group>"; };
+		D461B96C29A968C6001661AF /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		D461B96E29A9691E001661AF /* lang.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lang.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D461B97229A9700F001661AF /* OrderedCollections in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +115,8 @@
 				D44FF16B292FC66900B9B0DC /* Assets.xcassets */,
 				D44FF16D292FC66900B9B0DC /* Dahna_s_Kimchi.entitlements */,
 				D44FF16E292FC66900B9B0DC /* Preview Content */,
+				D461B96C29A968C6001661AF /* SettingsView.swift */,
+				D461B96E29A9691E001661AF /* lang.swift */,
 			);
 			path = "Dahna's Kimchi";
 			sourceTree = "<group>";
@@ -154,6 +162,9 @@
 			dependencies = (
 			);
 			name = "Dahna's Kimchi";
+			packageProductDependencies = (
+				D461B97129A9700F001661AF /* OrderedCollections */,
+			);
 			productName = "Dhana's Kimchi";
 			productReference = D44FF164292FC66700B9B0DC /* Dahna's Kimchi.app */;
 			productType = "com.apple.product-type.application";
@@ -226,6 +237,9 @@
 				Base,
 			);
 			mainGroup = D44FF15B292FC66700B9B0DC;
+			packageReferences = (
+				D461B97029A9700F001661AF /* XCRemoteSwiftPackageReference "swift-collections" */,
+			);
 			productRefGroup = D44FF165292FC66700B9B0DC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -271,6 +285,8 @@
 				D44FF197292FE43C00B9B0DC /* RecipeContentView.swift in Sources */,
 				D450590B29A297150009964F /* IngredientsView.swift in Sources */,
 				D44FF16A292FC66700B9B0DC /* MainView.swift in Sources */,
+				D461B96D29A968C6001661AF /* SettingsView.swift in Sources */,
+				D461B96F29A9691E001661AF /* lang.swift in Sources */,
 				D44FF168292FC66700B9B0DC /* Dahna_s_KimchiApp.swift in Sources */,
 				D44FF195292FE2D700B9B0DC /* RecipeListView.swift in Sources */,
 			);
@@ -626,6 +642,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D461B97029A9700F001661AF /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D461B97129A9700F001661AF /* OrderedCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D461B97029A9700F001661AF /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = OrderedCollections;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D44FF15C292FC66700B9B0DC /* Project object */;
 }
