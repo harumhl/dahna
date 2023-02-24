@@ -16,7 +16,7 @@ struct SettingsView: View {
 
     var body: some View {
         GroupBox(){ // TODO styling with GroupBox and DisclosureGroup
-            DisclosureGroup("Languages") {
+            DisclosureGroup(GlobalConstants.settings["language"]?[languageChoice] ?? "") {
                 ForEach(GlobalConstants.languages.elements, id: \.key) { key, value in
                     Button {
                         updateLanguageChoice(selectedLanguage: key)
