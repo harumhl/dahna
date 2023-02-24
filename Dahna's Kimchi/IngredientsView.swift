@@ -7,17 +7,12 @@
 
 import SwiftUI
 
-let ingredientList = ["NapaCabbage", "BellPepper", "Radish"]
-func pascalCaseToSpaced(string: String) -> String {
-    let regexPattern = "[A-Z-_&](?=[a-z0-9]+)|[A-Z-_&]+(?![a-z0-9])"
-    return string.replacingOccurrences(of: regexPattern, with: " $0", options: .regularExpression, range: nil)
-}
-
 struct PhotosView: View {
+    @AppStorage("languageChoice") var lang: String = UserDefaults.standard.string(forKey: "languageChoice") ?? GlobalConstants.languageDefault;
     var body: some View {
-        ForEach(ingredientList, id: \.self) {
-            Text(pascalCaseToSpaced(string: $0))
-            Image($0)
+        ForEach(GlobalConstants.ingredients.elements, id: \.key) { key, value in
+            Text(value[lang] ?? "")
+            Image(key)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .padding()

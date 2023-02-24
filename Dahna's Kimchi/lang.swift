@@ -9,6 +9,11 @@ import Foundation
 import OrderedCollections
 
 class GlobalConstants {
+    static let languageDefault = "Korean"
     static let languages: OrderedDictionary = ["Korean": "한글", "English": "English"]
-    static let ingredients = ["Korean": ["배추"]]
+    static let ingredients: OrderedDictionary = [
+        "NapaCabbage": ["Korean": "배추", "English": "Napa Cabbage"],
+        "BellPepper": ["Korean": "피망/파프리카", "English": "Bell Pepper"],
+        "Radish": ["Korean": "무", "English": "Radish"],
+    ]
 }

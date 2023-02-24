@@ -12,7 +12,7 @@ struct SettingsView: View {
         languageChoice = selectedLanguage;
     }
 
-    @AppStorage("languageChoice") var languageChoice: String = (GlobalConstants.languages["Korean"] ?? "")
+    @AppStorage("languageChoice") var languageChoice: String = GlobalConstants.languageDefault
 
     var body: some View {
         GroupBox(){ // TODO styling with GroupBox and DisclosureGroup
