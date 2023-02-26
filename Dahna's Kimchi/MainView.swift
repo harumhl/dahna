@@ -10,19 +10,20 @@ import SwiftUI
 // Command + Shift + L to see systemImage list
 
 struct MainView: View {
+    @AppStorage("languageChoice") var lang: String = UserDefaults.standard.string(forKey: "languageChoice") ?? GlobalConstants.languageDefault;
     var body: some View {
         TabView {
             RecipeListView()
                 .tabItem {
-                    Label("조리법", systemImage: "list.dash")
+                    Label(GlobalConstants.tabViews["recipes"]?[lang] ?? "", systemImage: "list.dash")
                 }
             IngredientsView()
                 .tabItem {
-                    Label("재료", systemImage: "list.dash")
+                    Label(GlobalConstants.tabViews["ingredients"]?[lang] ?? "", systemImage: "list.dash")
                 }
             SettingsView()
                 .tabItem {
-                    Label("설정", systemImage: "gear.circle")
+                    Label(GlobalConstants.tabViews["settings"]?[lang] ?? "", systemImage: "gear.circle")
                 }
         }
     }

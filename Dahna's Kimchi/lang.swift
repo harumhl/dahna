@@ -11,6 +11,12 @@ import OrderedCollections
 class GlobalConstants {
     static let languageDefault = "Korean"
     static let languages: OrderedDictionary = ["Korean": "한글", "English": "English"]
+    
+    static let tabViews: OrderedDictionary = [
+        "recipes": ["Korean": "조리법", "English": "Recipes"],
+        "ingredients": ["Korean": "재료", "English": "Ingredients"],
+        "settings": ["Korean": "설정", "English": "Settings"]
+    ]
     static let settings: OrderedDictionary = [
         "language": ["Korean": "언어", "English": "Language"]
     ]
