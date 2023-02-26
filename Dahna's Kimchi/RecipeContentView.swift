@@ -20,6 +20,6 @@ struct RecipeContentView: View {
 
 struct RecipeContentView_Previews: PreviewProvider {
     static var previews: some View {
-        RecipeContentView(recipe: recipes[0])
+        RecipeContentView(recipe: Recipe(title: "Title", content: "Content"))
     }
 }
