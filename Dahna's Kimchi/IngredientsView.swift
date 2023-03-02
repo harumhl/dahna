@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct PhotosView: View {
-    @AppStorage("languageChoice") var lang: String = UserDefaults.standard.string(forKey: "languageChoice") ?? GlobalConstants.languageDefault;
+    @AppStorage("languages") var lang: String = UserDefaults.standard.string(forKey: "languages") ?? LANGUAGE_DEFAULT
     var body: some View {
-        ForEach(GlobalConstants.ingredients.elements, id: \.key) { key, value in
+        ForEach(INGREDIENTS.elements, id: \.key) { key, value in
             Text(value[lang] ?? "")
             Image(key)
                 .resizable()

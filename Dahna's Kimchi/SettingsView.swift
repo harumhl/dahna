@@ -8,23 +8,30 @@
 import SwiftUI
 
 struct SettingsView: View {
-    func updateLanguageChoice(selectedLanguage: String) {
-        languageChoice = selectedLanguage;
+    func getSelection(key: String) -> String {
+        return (UserDefaults.standard.value(forKey: key) ?? "") as! String
+    }
+    
+    func setSelection(key: String, value: String) {
+        UserDefaults.standard.set(value, forKey: key)
     }
 
-    @AppStorage("languageChoice") var languageChoice: String = GlobalConstants.languageDefault
+    // Using @AppStorage to show the changes being applied instantly // TODO? so I don't have to add one every time
+    @AppStorage("languages") var lang: String = UserDefaults.standard.string(forKey: "languages") ?? LANGUAGE_DEFAULT
+    @AppStorage("units") var unit: String = UserDefaults.standard.string(forKey: "units") ?? ""
 
     var body: some View {
         GroupBox(){ // TODO styling with GroupBox and DisclosureGroup
-            DisclosureGroup(GlobalConstants.settings["language"]?[languageChoice] ?? "") {
-                ForEach(GlobalConstants.languages.elements, id: \.key) { key, value in
-                    Button {
-                        updateLanguageChoice(selectedLanguage: key)
-                    } label: {
-                        Text(value)
-                            .fontWeight(key == languageChoice ? .bold : .regular)
+            ForEach(SETTINGS_TITLES.elements, id: \.key) { settingKey, settingVal in
+                DisclosureGroup(SETTINGS_TITLES[settingKey]?[lang] ?? "") {
+                    ForEach(SETTINGS_DETAILS[settingKey]?.elements ?? LANGUAGES.elements, id: \.key) { key, value in // TODO alternative to LANGUAGES.elements
+                        Button {
+                            setSelection(key: settingKey, value: key)
+                        } label: {
+                            Text(value[lang] ?? "")
+                                .fontWeight(key == lang || key == unit ? .bold : .regular) // TODO simplify
+                        }
                     }
-
                 }
             }
         }

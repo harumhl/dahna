@@ -14,15 +14,15 @@ struct Recipe : Identifiable {
 }
 
 struct RecipeListView: View {
-    @AppStorage("languageChoice") var lang: String = UserDefaults.standard.string(forKey: "languageChoice") ?? GlobalConstants.languageDefault;
+    @AppStorage("languages") var lang: String = UserDefaults.standard.string(forKey: "languages") ?? LANGUAGE_DEFAULT
     var body: some View {
         NavigationView {
-            List(Array(GlobalConstants.recipes.elements), id: \.key) { key, value in
+            List(Array(RECIPES.elements), id: \.key) { key, value in
                 NavigationLink(destination: RecipeContentView(recipe: value[lang] ?? Recipe(title: "", content: ""))) {
                     Text(value[lang]?.title ?? "")
                 }
             }
-            .navigationTitle(GlobalConstants.tabViews["recipes"]?[lang] ?? "")
+            .navigationTitle(TAB_VIEWS["recipes"]?[lang] ?? "")
         }
     }
 }
