@@ -36,6 +36,14 @@ class GlobalConstants {
         "BellPepper": ["Korean": "피망/파프리카", "English": "Bell Pepper"],
         "Radish": ["Korean": "무", "English": "Radish"],
         "AppleJuice": ["Korean": "사과주스", "English": "Apple Juice"],
+        "Garlic": ["Korean": "마늘", "English": "Garlic"],
+        "Ginger": ["Korean": "생강", "English": "Ginger"],
+        "Tomato": ["Korean": "토마토", "English": "Tomato"],
+        "GreenOnion": ["Korean": "파", "English": "Green Onion"],
+        "Jalapeno": ["Korean": "할라페뇨", "English": "Jalapeño"],
+        "PickledShrimps": ["Korean": "새우젓", "English": "Pickled Shrimps"],
+        "Onion": ["Korean": "양파", "English": "Onion"],
+        "AnchovySauce": ["Korean": "멸치액젓", "English": "Anchovy Sauce"],
     ]
     static let settings: OrderedDictionary = [
         "language": ["Korean": "언어", "English": "Language"]
