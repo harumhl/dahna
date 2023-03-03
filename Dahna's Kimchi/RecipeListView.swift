@@ -10,6 +10,7 @@ import SwiftUI
 struct Recipe : Identifiable {
     let id = UUID()
     let title: String
+    let ingredients: [Ingredient]
     let content: String
 }
 
@@ -18,7 +19,7 @@ struct RecipeListView: View {
     var body: some View {
         NavigationView {
             List(Array(RECIPES.elements), id: \.key) { key, value in
-                NavigationLink(destination: RecipeContentView(recipe: value[lang] ?? Recipe(title: "", content: ""))) {
+                NavigationLink(destination: RecipeContentView(recipe: value[lang] ?? Recipe(title: "", ingredients: [], content: ""))) {
                     Text(value[lang]?.title ?? "")
                 }
             }

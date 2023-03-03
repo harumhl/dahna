@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SettingsView: View {
     func getSelection(key: String) -> String {
-        return (UserDefaults.standard.value(forKey: key) ?? "") as! String
+        return (UserDefaults.standard.string(forKey: key) ?? "")
     }
     
     func setSelection(key: String, value: String) {

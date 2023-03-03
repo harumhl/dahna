@@ -15,16 +15,30 @@ let TAB_VIEWS: OrderedDictionary = [
 ]
 let RECIPES: OrderedDictionary = [
     "김치볶음밥": ["Korean": Recipe(title: "김치볶음밥",
+                               ingredients: [
+                                Ingredient(name: "김치", amount: 100, unit: "g"),
+                                Ingredient(name: "양파", amount: 1, unit: "개"),
+                                Ingredient(name: "밥", amount: 100, unit: "g"),
+                               ],
                                content: "재료는 김치, 밥, 고기"),
               "English": Recipe(title: "Kimchi Fried Rice",
+                                ingredients: [
+                                 Ingredient(name: "Kimchi", amount: 100, unit: "g"),
+                                 Ingredient(name: "Onion", amount: 1, unit: "onion"),
+                                 Ingredient(name: "Rice", amount: 100, unit: "g"),
+                                ],
                                 content: "Ingredients include kimchi, rice and meat")],
     "감치부침개": ["Korean": Recipe(title: "감치부침개",
+                               ingredients: [],
                                content: "재료는 김치, 부침가루"),
               "English": Recipe(title: "Kimchi Pancake",
+                                ingredients: [],
                                 content: "Ingredients include kimchi and pancake mix")],
     "김치찌게": ["Korean": Recipe(title: "김치찌게",
+                              ingredients: [],
                               content: "재료는 김치, 물, 고기"),
              "English": Recipe(title: "Kimchi stew",
+                               ingredients: [],
                                content: "Ingredients include kimchi, water and meat")]
 ]
 let INGREDIENTS: OrderedDictionary = [
