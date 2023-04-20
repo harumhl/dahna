@@ -10,7 +10,8 @@ import OrderedCollections
 
 let TAB_VIEWS: OrderedDictionary = [
     "recipes": ["Korean": "조리법", "English": "Recipes"],
-    "ingredients": ["Korean": "재료", "English": "Ingredients"],
+    "menu": ["Korean": "다나의 김치 메뉴", "English": "Dahna's Kimchi Menu"],
+    "ingredients": ["Korean": "다나의 김치 재료", "English": "Dahna's Kimchi Ingredients"],
     "settings": ["Korean": "설정", "English": "Settings"]
 ]
 let RECIPES: OrderedDictionary = [
@@ -43,17 +44,31 @@ let RECIPES: OrderedDictionary = [
 ]
 let INGREDIENTS: OrderedDictionary = [
     "NapaCabbage": ["Korean": "배추", "English": "Napa Cabbage"],
-    "BellPepper": ["Korean": "피망/파프리카", "English": "Bell Pepper"],
     "Radish": ["Korean": "무", "English": "Radish"],
-    "AppleJuice": ["Korean": "사과주스", "English": "Apple Juice"],
+    "GreenOnion": ["Korean": "파", "English": "Green Onion"],
+    "RedPepperPowder": ["Korean": "고추가루", "English": "Red Pepper Powder"],
     "Garlic": ["Korean": "마늘", "English": "Garlic"],
     "Ginger": ["Korean": "생강", "English": "Ginger"],
-    "Tomato": ["Korean": "토마토", "English": "Tomato"],
-    "GreenOnion": ["Korean": "파", "English": "Green Onion"],
-    "Jalapeno": ["Korean": "할라페뇨", "English": "Jalapeño"],
-    "PickledShrimps": ["Korean": "새우젓", "English": "Pickled Shrimps"],
+    "BellPepper": ["Korean": "파프리카", "English": "Red Bell Pepper"],
+    "Jalapeno": ["Korean": "할라페뇨", "English": "Red Jalapeño"],
     "Onion": ["Korean": "양파", "English": "Onion"],
+    "Tomato": ["Korean": "토마토", "English": "Tomato"],
     "AnchovySauce": ["Korean": "멸치액젓", "English": "Anchovy Sauce"],
+    "PickledShrimps": ["Korean": "새우젓", "English": "Tiny Salted Shrimps"],
+    "AppleJuice": ["Korean": "사과주스", "English": "Apple Juice"],
+    "PlumExtract": ["Korean": "매실 액기스", "English": "Plum Extract"],
+]
+let MENUS: OrderedDictionary = [
+    "BrownRice": ["Korean": "1. 다나의 김치와 배고픔과 현미밥", "English": "1. Dahna's Kimchi & Hungry & Brown Rice"],
+    "SeaweedAndRice": ["Korean": "2. 다나의 김치와 김 그리고 밥", "English": "2. Dahna's Kimchi & Dried Seaweed & Rice"],
+    "EggFriedRice": ["Korean": "3. 계란후라이를 얹은 김치볶음밥", "English": "3. Kimchi Fried Rice topped with Fried Egg"],
+    "CheeseFriedRice": ["Korean": "4. 치즈 얹은 김치볶음밥", "English": "4. Kimchi Fried Rice topped with Cheese"],
+    "SourKimchiPorkBelly": ["Korean": "5. 신김치 볶음과 삼겹살과 생야채", "English": "5. Sour Fried Kimchi & Pork Belly & Fresh Vegetables"],
+    "TofuStew": ["Korean": "6. 두부 김치찌게", "English": "6. Tofu Kimchi Stew"],
+    "FriedKimchiBoiledTofu": ["Korean": "7. 볶은 김치와 데친 두부", "English": "7. Fried Kimchi & Boiled Tofu"],
+    "SeafoodPancake": ["Korean": "8. 김치와 해물을 섞은 전", "English": "8. Kimchi and Seafood Pancakes"],
+    "NoodleWithoutSoup": ["Korean": "9. 김치 비빔국수", "English": "9. Kimchi Noodle without Soup"],
+    "NoodleWithSoup": ["Korean": "10. 김치말이국수", "English": "10. Kimchi Noodle with Soup"],
 ]
 let LANGUAGE_DEFAULT = "Korean"
 let LANGUAGES: OrderedDictionary = [

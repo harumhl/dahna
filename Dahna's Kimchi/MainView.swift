@@ -13,13 +13,17 @@ struct MainView: View {
     @AppStorage("languages") var lang: String = UserDefaults.standard.string(forKey: "languages") ?? LANGUAGE_DEFAULT
     var body: some View {
         TabView {
-            RecipeListView()
-                .tabItem {
-                    Label(TAB_VIEWS["recipes"]?[lang] ?? "", systemImage: "list.dash")
-                }
             IngredientsView()
                 .tabItem {
                     Label(TAB_VIEWS["ingredients"]?[lang] ?? "", systemImage: "list.dash")
+                }
+            MenuView()
+                .tabItem {
+                    Label(TAB_VIEWS["menu"]?[lang] ?? "", systemImage: "list.dash")
+                }
+            RecipeListView()
+                .tabItem {
+                    Label(TAB_VIEWS["recipes"]?[lang] ?? "", systemImage: "list.dash")
                 }
             SettingsView()
                 .tabItem {
