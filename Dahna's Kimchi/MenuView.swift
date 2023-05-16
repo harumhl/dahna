@@ -10,12 +10,20 @@ import SwiftUI
 struct MenuPhotosView: View { // TODO consolidate?
     @AppStorage("languages") var lang: String = UserDefaults.standard.string(forKey: "languages") ?? LANGUAGE_DEFAULT
     var body: some View {
-        ForEach(MENUS.elements, id: \.key) { key, value in
-            Text(value[lang] ?? "")
-            Image(key)
-                .resizable()
-                .aspectRatio(contentMode: .fit)
-                .padding()
+        NavigationView {
+            List(Array(RECIPES.elements), id: \.key) { key, value in
+                NavigationLink(destination: RecipeContentView(recipe: value[lang] ?? Recipe(title: "", ingredients: [], content: "")), label: {
+                    VStack { // VStack puts Image below Text
+                        Text(value[lang]?.title ?? "")
+                        Image("KimchiFriedRice") // TODO replace the str with `key`
+                            .renderingMode(.original)
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .padding()
+                    }
+                })
+            }
+            .navigationTitle(TAB_VIEWS["recipes"]?[lang] ?? "")
         }
     }
 }

@@ -15,14 +15,15 @@ struct Ingredient : Identifiable {
 }
 
 struct RecipeContentView: View {
+    @AppStorage("languages") var lang: String = UserDefaults.standard.string(forKey: "languages") ?? LANGUAGE_DEFAULT
     let recipe: Recipe
 
     var body: some View {
-        Text("Ingredients") // TODO language
+        Text(RECIPE_TERMS["Ingredients"]?[lang] ?? "")
         List(recipe.ingredients) { ingredient in
             Text("\(ingredient.name): \(String(format: "%.2f", ingredient.amount)) \(ingredient.unit)") // TODO unit conversion
         }
-        Text("Recipe") // TODO language
+        Text(RECIPE_TERMS["Recipe"]?[lang] ?? "")
         Text(recipe.content)
             .navigationTitle(recipe.title)
     }
