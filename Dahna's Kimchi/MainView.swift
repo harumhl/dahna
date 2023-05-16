@@ -15,15 +15,15 @@ struct MainView: View {
         TabView {
             IngredientsView()
                 .tabItem {
-                    Label(TAB_VIEWS["ingredients"]?[lang] ?? "", systemImage: "list.dash")
+                    Label(TAB_VIEWS["ingredients"]?[lang] ?? "", systemImage: "cart.circle.fill")
                 }
             MenuView()
                 .tabItem {
-                    Label(TAB_VIEWS["menu"]?[lang] ?? "", systemImage: "list.dash")
+                    Label(TAB_VIEWS["menu"]?[lang] ?? "", systemImage: "fork.knife.circle")
                 }
             RecipeListView()
                 .tabItem {
-                    Label(TAB_VIEWS["recipes"]?[lang] ?? "", systemImage: "list.dash")
+                    Label(TAB_VIEWS["recipes"]?[lang] ?? "", systemImage: "cooktop") // list.bullet.rectangle //list.bullet.clipboard // list.dash // list.bullet.circle.fill
                 }
             SettingsView()
                 .tabItem {
