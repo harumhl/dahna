@@ -21,14 +21,22 @@ let RECIPES: OrderedDictionary = [
                                     Ingredient(name: "양파", amount: 1, unit: "개"),
                                     Ingredient(name: "밥", amount: 100, unit: "g"),
                                    ],
-                                   content: "재료는 김치, 밥, 고기"),
+                                   content: "재료는 김치, 밥, 고기",
+                                   steps: [
+                                    RecipeStep(instruction: "1. 밥 하기", photoId: ""),
+                                    RecipeStep(instruction: "2. 고기 준비", photoId: ""),
+                                   ]),
                   "English": Recipe(title: "1. Dahna's Kimchi & Hungry & Brown Rice",
                                     ingredients: [
                                      Ingredient(name: "Kimchi", amount: 100, unit: "g"),
                                      Ingredient(name: "Onion", amount: 1, unit: "개"),
                                      Ingredient(name: "Rice", amount: 100, unit: "g"),
                                     ],
-                                    content: "Ingredients include kimchi, rice and meat"),
+                                    content: "Ingredients include kimchi, rice and meat",
+                                    steps: [
+                                     RecipeStep(instruction: "1. 밥 하기", photoId: ""),
+                                     RecipeStep(instruction: "2. 고기 준비", photoId: ""),
+                                    ]),
     ],
     "SeaweedAndRice": ["Korean": Recipe(title: "2. 다나의 김치와 김 그리고 밥",
                                    ingredients: [
@@ -36,14 +44,22 @@ let RECIPES: OrderedDictionary = [
                                     Ingredient(name: "양파", amount: 1, unit: "개"),
                                     Ingredient(name: "밥", amount: 100, unit: "g"),
                                    ],
-                                   content: "재료는 김치, 밥, 고기"),
+                                   content: "재료는 김치, 밥, 고기",
+                                        steps: [
+                                         RecipeStep(instruction: "1. 밥 하기", photoId: ""),
+                                         RecipeStep(instruction: "2. 고기 준비", photoId: ""),
+                                        ]),
                   "English": Recipe(title: "2. Dahna's Kimchi & Dried Seaweed & Rice",
                                     ingredients: [
                                      Ingredient(name: "Kimchi", amount: 100, unit: "g"),
                                      Ingredient(name: "Onion", amount: 1, unit: "개"),
                                      Ingredient(name: "Rice", amount: 100, unit: "g"),
                                     ],
-                                    content: "Ingredients include kimchi, rice and meat"),
+                                    content: "Ingredients include kimchi, rice and meat",
+                                    steps: [
+                                     RecipeStep(instruction: "1. 밥 하기", photoId: ""),
+                                     RecipeStep(instruction: "2. 고기 준비", photoId: ""),
+                                    ]),
     ],
     "EggFriedRice": ["Korean": Recipe(title: "3. 계란후라이를 얹은 김치볶음밥",
                                    ingredients: [
@@ -51,14 +67,22 @@ let RECIPES: OrderedDictionary = [
                                     Ingredient(name: "양파", amount: 1, unit: "개"),
                                     Ingredient(name: "밥", amount: 100, unit: "g"),
                                    ],
-                                   content: "재료는 김치, 밥, 고기"),
+                                   content: "재료는 김치, 밥, 고기",
+                                      steps: [
+                                       RecipeStep(instruction: "밥 하기", photoId: ""),
+                                       RecipeStep(instruction: "고기 준비", photoId: ""),
+                                      ]),
                   "English": Recipe(title: "3. Kimchi Fried Rice topped with Fried Egg",
                                     ingredients: [
                                      Ingredient(name: "Kimchi", amount: 100, unit: "g"),
                                      Ingredient(name: "Onion", amount: 1, unit: "개"),
                                      Ingredient(name: "Rice", amount: 100, unit: "g"),
                                     ],
-                                    content: "Ingredients include kimchi, rice and meat"),
+                                    content: "Ingredients include kimchi, rice and meat",
+                                    steps: [
+                                     RecipeStep(instruction: "밥 하기", photoId: ""),
+                                     RecipeStep(instruction: "고기 준비", photoId: ""),
+                                    ]),
     ],
     "CheeseFriedRice": ["Korean": Recipe(title: "4. 치즈 얹은 김치볶음밥",
                                    ingredients: [
@@ -66,14 +90,22 @@ let RECIPES: OrderedDictionary = [
                                     Ingredient(name: "양파", amount: 1, unit: "개"),
                                     Ingredient(name: "밥", amount: 100, unit: "g"),
                                    ],
-                                   content: "재료는 김치, 밥, 고기"),
+                                   content: "재료는 김치, 밥, 고기",
+                                         steps: [
+                                          RecipeStep(instruction: "밥 하기", photoId: ""),
+                                          RecipeStep(instruction: "고기 준비", photoId: ""),
+                                         ]),
                   "English": Recipe(title: "4. Kimchi Fried Rice topped with Cheese",
                                     ingredients: [
                                      Ingredient(name: "Kimchi", amount: 100, unit: "g"),
                                      Ingredient(name: "Onion", amount: 1, unit: "개"),
                                      Ingredient(name: "Rice", amount: 100, unit: "g"),
                                     ],
-                                    content: "Ingredients include kimchi, rice and meat"),
+                                    content: "Ingredients include kimchi, rice and meat",
+                                    steps: [
+                                     RecipeStep(instruction: "밥 하기", photoId: ""),
+                                     RecipeStep(instruction: "고기 준비", photoId: ""),
+                                    ]),
     ],
     "SourKimchiPorkBelly": ["Korean": Recipe(title: "5. 신김치 볶음과 삼겹살과 생야채",
                                    ingredients: [
@@ -81,14 +113,22 @@ let RECIPES: OrderedDictionary = [
                                     Ingredient(name: "양파", amount: 1, unit: "개"),
                                     Ingredient(name: "밥", amount: 100, unit: "g"),
                                    ],
-                                   content: "재료는 김치, 밥, 고기"),
+                                   content: "재료는 김치, 밥, 고기",
+                                             steps: [
+                                              RecipeStep(instruction: "밥 하기", photoId: ""),
+                                              RecipeStep(instruction: "고기 준비", photoId: ""),
+                                             ]),
                   "English": Recipe(title: "5. Sour Fried Kimchi & Pork Belly & Fresh Vegetables",
                                     ingredients: [
                                      Ingredient(name: "Kimchi", amount: 100, unit: "g"),
                                      Ingredient(name: "Onion", amount: 1, unit: "개"),
                                      Ingredient(name: "Rice", amount: 100, unit: "g"),
                                     ],
-                                    content: "Ingredients include kimchi, rice and meat"),
+                                    content: "Ingredients include kimchi, rice and meat",
+                                    steps: [
+                                     RecipeStep(instruction: "밥 하기", photoId: ""),
+                                     RecipeStep(instruction: "고기 준비", photoId: ""),
+                                    ]),
     ],
     "TofuStew": ["Korean": Recipe(title: "6. 두부 김치찌게",
                                    ingredients: [
@@ -96,14 +136,22 @@ let RECIPES: OrderedDictionary = [
                                     Ingredient(name: "양파", amount: 1, unit: "개"),
                                     Ingredient(name: "밥", amount: 100, unit: "g"),
                                    ],
-                                   content: "재료는 김치, 밥, 고기"),
+                                   content: "재료는 김치, 밥, 고기",
+                                  steps: [
+                                   RecipeStep(instruction: "밥 하기", photoId: ""),
+                                   RecipeStep(instruction: "고기 준비", photoId: ""),
+                                  ]),
                   "English": Recipe(title: "6. Tofu Kimchi Stew",
                                     ingredients: [
                                      Ingredient(name: "Kimchi", amount: 100, unit: "g"),
                                      Ingredient(name: "Onion", amount: 1, unit: "개"),
                                      Ingredient(name: "Rice", amount: 100, unit: "g"),
                                     ],
-                                    content: "Ingredients include kimchi, rice and meat"),
+                                    content: "Ingredients include kimchi, rice and meat",
+                                    steps: [
+                                     RecipeStep(instruction: "밥 하기", photoId: ""),
+                                     RecipeStep(instruction: "고기 준비", photoId: ""),
+                                    ]),
     ],
     "FriedKimchiBoiledTofu": ["Korean": Recipe(title: "7. 볶은 김치와 데친 두부",
                                    ingredients: [
@@ -111,14 +159,22 @@ let RECIPES: OrderedDictionary = [
                                     Ingredient(name: "양파", amount: 1, unit: "개"),
                                     Ingredient(name: "밥", amount: 100, unit: "g"),
                                    ],
-                                   content: "재료는 김치, 밥, 고기"),
+                                   content: "재료는 김치, 밥, 고기",
+                                               steps: [
+                                                RecipeStep(instruction: "밥 하기", photoId: ""),
+                                                RecipeStep(instruction: "고기 준비", photoId: ""),
+                                               ]),
                   "English": Recipe(title: "7. Fried Kimchi & Boiled Tofu",
                                     ingredients: [
                                      Ingredient(name: "Kimchi", amount: 100, unit: "g"),
                                      Ingredient(name: "Onion", amount: 1, unit: "개"),
                                      Ingredient(name: "Rice", amount: 100, unit: "g"),
                                     ],
-                                    content: "Ingredients include kimchi, rice and meat"),
+                                    content: "Ingredients include kimchi, rice and meat",
+                                    steps: [
+                                     RecipeStep(instruction: "밥 하기", photoId: ""),
+                                     RecipeStep(instruction: "고기 준비", photoId: ""),
+                                    ]),
     ],
     "SeafoodPancake": ["Korean": Recipe(title: "8. 김치와 해물을 섞은 전",
                                    ingredients: [
@@ -126,14 +182,22 @@ let RECIPES: OrderedDictionary = [
                                     Ingredient(name: "양파", amount: 1, unit: "개"),
                                     Ingredient(name: "밥", amount: 100, unit: "g"),
                                    ],
-                                   content: "재료는 김치, 밥, 고기"),
+                                   content: "재료는 김치, 밥, 고기",
+                                        steps: [
+                                         RecipeStep(instruction: "밥 하기", photoId: ""),
+                                         RecipeStep(instruction: "고기 준비", photoId: ""),
+                                        ]),
                   "English": Recipe(title: "8. Kimchi and Seafood Pancakes",
                                     ingredients: [
                                      Ingredient(name: "Kimchi", amount: 100, unit: "g"),
                                      Ingredient(name: "Onion", amount: 1, unit: "개"),
                                      Ingredient(name: "Rice", amount: 100, unit: "g"),
                                     ],
-                                    content: "Ingredients include kimchi, rice and meat"),
+                                    content: "Ingredients include kimchi, rice and meat",
+                                    steps: [
+                                     RecipeStep(instruction: "밥 하기", photoId: ""),
+                                     RecipeStep(instruction: "고기 준비", photoId: ""),
+                                    ]),
     ],
     "NoodleWithoutSoup": ["Korean": Recipe(title: "9. 김치 비빔국수",
                                    ingredients: [
@@ -141,14 +205,22 @@ let RECIPES: OrderedDictionary = [
                                     Ingredient(name: "양파", amount: 1, unit: "개"),
                                     Ingredient(name: "밥", amount: 100, unit: "g"),
                                    ],
-                                   content: "재료는 김치, 밥, 고기"),
+                                   content: "재료는 김치, 밥, 고기",
+                                           steps: [
+                                            RecipeStep(instruction: "밥 하기", photoId: ""),
+                                            RecipeStep(instruction: "고기 준비", photoId: ""),
+                                           ]),
                   "English": Recipe(title: "9. Kimchi Noodle without Soup",
                                     ingredients: [
                                      Ingredient(name: "Kimchi", amount: 100, unit: "g"),
                                      Ingredient(name: "Onion", amount: 1, unit: "개"),
                                      Ingredient(name: "Rice", amount: 100, unit: "g"),
                                     ],
-                                    content: "Ingredients include kimchi, rice and meat"),
+                                    content: "Ingredients include kimchi, rice and meat",
+                                    steps: [
+                                     RecipeStep(instruction: "밥 하기", photoId: ""),
+                                     RecipeStep(instruction: "고기 준비", photoId: ""),
+                                    ]),
     ],
     "NoodleWithSoup": ["Korean": Recipe(title: "10. 김치말이국수",
                                    ingredients: [
@@ -156,14 +228,22 @@ let RECIPES: OrderedDictionary = [
                                     Ingredient(name: "양파", amount: 1, unit: "개"),
                                     Ingredient(name: "밥", amount: 100, unit: "g"),
                                    ],
-                                   content: "재료는 김치, 밥, 고기"),
+                                   content: "재료는 김치, 밥, 고기",
+                                        steps: [
+                                         RecipeStep(instruction: "밥 하기", photoId: ""),
+                                         RecipeStep(instruction: "고기 준비", photoId: ""),
+                                        ]),
                   "English": Recipe(title: "10. Kimchi Noodle with Soup",
                                     ingredients: [
                                      Ingredient(name: "Kimchi", amount: 100, unit: "g"),
                                      Ingredient(name: "Onion", amount: 1, unit: "개"),
                                      Ingredient(name: "Rice", amount: 100, unit: "g"),
                                     ],
-                                    content: "Ingredients include kimchi, rice and meat"),
+                                    content: "Ingredients include kimchi, rice and meat",
+                                    steps: [
+                                     RecipeStep(instruction: "밥 하기", photoId: ""),
+                                     RecipeStep(instruction: "고기 준비", photoId: ""),
+                                    ]),
     ],
 ]
 let INGREDIENTS: OrderedDictionary = [

@@ -12,6 +12,13 @@ struct Recipe : Identifiable {
     let title: String
     let ingredients: [Ingredient]
     let content: String
+    let steps: [RecipeStep]
+}
+
+struct RecipeStep : Identifiable {
+    var id = UUID()
+    let instruction: String
+    let photoId: String
 }
 
 struct RecipeListView: View {
@@ -19,7 +26,7 @@ struct RecipeListView: View {
     var body: some View {
         NavigationView {
             List(Array(RECIPES.elements), id: \.key) { key, value in
-                NavigationLink(destination: RecipeContentView(recipe: value[lang] ?? Recipe(title: "", ingredients: [], content: ""))) {
+                NavigationLink(destination: RecipeContentView(recipe: value[lang] ?? Recipe(title: "", ingredients: [], content: "", steps: []))) {
                     Text(value[lang]?.title ?? "")
                 }
             }

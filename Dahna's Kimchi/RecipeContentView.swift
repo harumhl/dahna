@@ -32,9 +32,16 @@ struct RecipeContentView: View {
                     Text("\(ingredient.name): \(String(format: "%.2f", ingredient.amount)) \(ingredient.unit)") // TODO unit conversion
                 }
             }
+            Section(header: Text(RECIPE_TERMS["Recipe"]?[lang] ?? "")) {
+                ForEach(recipe.steps) { step in
+                    Text("\(step.instruction)")
+                    Image("KimchiFriedRice")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .padding()
+                }
+            }
         }
-        Text(RECIPE_TERMS["Recipe"]?[lang] ?? "")
-        Text(recipe.content)
             .navigationTitle(recipe.title)
     }
 }
@@ -44,6 +51,8 @@ struct RecipeContentView_Previews: PreviewProvider {
         RecipeContentView(recipe: Recipe(
             title: "Title",
             ingredients: [],
-            content: "Content"))
+            content: "Content",
+            steps: []
+        ))
     }
 }
