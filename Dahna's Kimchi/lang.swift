@@ -18,9 +18,9 @@ func getSelection(key: String) -> String {
 }
 
 let TAB_VIEWS: OrderedDictionary = [
-    "recipes": ["Korean": "조리법", "English": "Recipes"],
-    "menu": ["Korean": "단아의 김치 메뉴", "English": "Dahna's Kimchi Menu"],
     "ingredients": ["Korean": "단아의 김치 재료", "English": "Dahna's Kimchi Ingredients"],
+    "menu": ["Korean": "단아의 김치 메뉴", "English": "Dahna's Kimchi Menu"],
+    "about": ["Korean": "단아에 대해서", "English": "About Dahna"],
     "settings": ["Korean": "설정", "English": "Settings"]
 ]
 let RECIPES: OrderedDictionary = [

@@ -24,7 +24,7 @@ struct MenuPhotosView: View { // TODO consolidate?
                     }
                 })
             }
-            .navigationTitle(TAB_VIEWS["recipes"]?[lang] ?? "")
+            .navigationTitle(TAB_VIEWS["menu"]?[lang] ?? "")
         }
     }
 }

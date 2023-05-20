@@ -19,6 +19,7 @@
 		D461B96D29A968C6001661AF /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D461B96C29A968C6001661AF /* SettingsView.swift */; };
 		D461B96F29A9691E001661AF /* lang.swift in Sources */ = {isa = PBXBuildFile; fileRef = D461B96E29A9691E001661AF /* lang.swift */; };
 		D461B97229A9700F001661AF /* OrderedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = D461B97129A9700F001661AF /* OrderedCollections */; };
+		D49CE7872A198269001B1572 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49CE7862A198269001B1572 /* AboutView.swift */; };
 		D4F3EE1929F190180050A57C /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F3EE1829F190180050A57C /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		D450590A29A297150009964F /* IngredientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsView.swift; sourceTree = "<group>"; };
 		D461B96C29A968C6001661AF /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		D461B96E29A9691E001661AF /* lang.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lang.swift; sourceTree = "<group>"; };
+		D49CE7862A198269001B1572 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		D4F3EE1829F190180050A57C /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,6 +112,7 @@
 				D44FF167292FC66700B9B0DC /* Dahna_s_KimchiApp.swift */,
 				D44FF169292FC66700B9B0DC /* MainView.swift */,
 				D44FF196292FE43C00B9B0DC /* RecipeContentView.swift */,
+				D49CE7862A198269001B1572 /* AboutView.swift */,
 				D450590A29A297150009964F /* IngredientsView.swift */,
 				D4F3EE1829F190180050A57C /* MenuView.swift */,
 				D44FF16B292FC66900B9B0DC /* Assets.xcassets */,
@@ -282,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D49CE7872A198269001B1572 /* AboutView.swift in Sources */,
 				D44FF197292FE43C00B9B0DC /* RecipeContentView.swift in Sources */,
 				D4F3EE1929F190180050A57C /* MenuView.swift in Sources */,
 				D450590B29A297150009964F /* IngredientsView.swift in Sources */,

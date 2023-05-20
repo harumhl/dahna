@@ -22,10 +22,10 @@ struct MainView: View {
                 .tabItem {
                     Label(TAB_VIEWS["menu"]?[lang] ?? "", systemImage: "fork.knife.circle")
                 }
-//            RecipeListView()
-//                .tabItem {
-//                    Label(TAB_VIEWS["recipes"]?[lang] ?? "", systemImage: "cooktop") // list.bullet.rectangle //list.bullet.clipboard // list.dash // list.bullet.circle.fill
-//                }
+            AboutView()
+                .tabItem {
+                    Label(TAB_VIEWS["about"]?[lang] ?? "", systemImage: "face.smiling")
+                }
             SettingsView()
                 .tabItem {
                     Label(TAB_VIEWS["settings"]?[lang] ?? "", systemImage: "gear.circle")
