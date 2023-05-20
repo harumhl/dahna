@@ -10,12 +10,12 @@ import OrderedCollections
 
 let TAB_VIEWS: OrderedDictionary = [
     "recipes": ["Korean": "조리법", "English": "Recipes"],
-    "menu": ["Korean": "다나의 김치 메뉴", "English": "Dahna's Kimchi Menu"],
-    "ingredients": ["Korean": "다나의 김치 재료", "English": "Dahna's Kimchi Ingredients"],
+    "menu": ["Korean": "단아의 김치 메뉴", "English": "Dahna's Kimchi Menu"],
+    "ingredients": ["Korean": "단아의 김치 재료", "English": "Dahna's Kimchi Ingredients"],
     "settings": ["Korean": "설정", "English": "Settings"]
 ]
 let RECIPES: OrderedDictionary = [
-    "BrownRice": ["Korean": Recipe(title: "1. 다나의 김치와 배고픔과 현미밥",
+    "BrownRice": ["Korean": Recipe(title: "1. 단아의 김치와 배고픔과 현미밥",
                                    ingredients: [
                                     Ingredient(name: "김치", amount: 100, unit: "g"),
                                     Ingredient(name: "양파", amount: 1, unit: "개"),
@@ -38,7 +38,7 @@ let RECIPES: OrderedDictionary = [
                                      RecipeStep(instruction: "2. 고기 준비", photoId: ""),
                                     ]),
     ],
-    "SeaweedAndRice": ["Korean": Recipe(title: "2. 다나의 김치와 김 그리고 밥",
+    "SeaweedAndRice": ["Korean": Recipe(title: "2. 단아의 김치와 김 그리고 밥",
                                    ingredients: [
                                     Ingredient(name: "김치", amount: 100, unit: "g"),
                                     Ingredient(name: "양파", amount: 1, unit: "개"),
