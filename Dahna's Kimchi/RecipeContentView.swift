@@ -7,6 +7,20 @@
 
 import SwiftUI
 
+struct Recipe : Identifiable {
+    let id = UUID()
+    let title: String
+    let ingredients: [Ingredient]
+    let content: String
+    let steps: [RecipeStep]
+}
+
+struct RecipeStep : Identifiable {
+    var id = UUID()
+    let instruction: String
+    let photoId: String
+}
+
 struct Ingredient : Identifiable {
     let id = UUID()
     let name: String
