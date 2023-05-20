@@ -21,8 +21,8 @@ func convertUnit(fromValue: Double, from: Dimension, to: Dimension) -> Double {
 
 
 struct RecipeContentView: View {
-    @AppStorage("languages") var lang: String = UserDefaults.standard.string(forKey: "languages") ?? LANGUAGE_DEFAULT
-    @AppStorage("units") var unit: String =  UserDefaults.standard.string(forKey: "units") ?? UNIT_DEFAULT // TODO String -> Dimension
+    @AppStorage("languages") var lang = getSelection(key: "languages")
+    @AppStorage("units") var unit = getSelection(key: "units") // TODO String -> Dimension
     let recipe: Recipe
 
     var body: some View {

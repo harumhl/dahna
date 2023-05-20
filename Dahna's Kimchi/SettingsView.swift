@@ -8,17 +8,13 @@
 import SwiftUI
 
 struct SettingsView: View {
-    func getSelection(key: String) -> String {
-        return (UserDefaults.standard.string(forKey: key) ?? "")
-    }
-    
     func setSelection(key: String, value: String) {
         UserDefaults.standard.set(value, forKey: key)
     }
 
     // Using @AppStorage to show the changes being applied instantly // TODO? so I don't have to add one every time
-    @AppStorage("languages") var lang: String = UserDefaults.standard.string(forKey: "languages") ?? LANGUAGE_DEFAULT
-    @AppStorage("units") var unit: String = UserDefaults.standard.string(forKey: "units") ?? ""
+    @AppStorage("languages") var lang = getSelection(key: "languages")
+    @AppStorage("units") var unit = getSelection(key: "units")
 
     var body: some View {
         GroupBox(){ // TODO styling with GroupBox and DisclosureGroup

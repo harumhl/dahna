@@ -10,7 +10,8 @@ import SwiftUI
 // Command + Shift + L to see systemImage list
 
 struct MainView: View {
-    @AppStorage("languages") var lang: String = UserDefaults.standard.string(forKey: "languages") ?? LANGUAGE_DEFAULT
+    @AppStorage("languages") var lang = getSelection(key: "languages")
+    
     var body: some View {
         TabView {
             IngredientsView()

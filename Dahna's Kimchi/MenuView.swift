@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct MenuPhotosView: View { // TODO consolidate?
-    @AppStorage("languages") var lang: String = UserDefaults.standard.string(forKey: "languages") ?? LANGUAGE_DEFAULT
+    @AppStorage("languages") var lang = getSelection(key: "languages")
+    
     var body: some View {
         NavigationView {
             List(Array(RECIPES.elements), id: \.key) { key, value in

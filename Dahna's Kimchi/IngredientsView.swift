@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct PhotosView: View {
-    @AppStorage("languages") var lang: String = UserDefaults.standard.string(forKey: "languages") ?? LANGUAGE_DEFAULT
+    @AppStorage("languages") var lang = getSelection(key: "languages")
+    
     var body: some View {
         ForEach(INGREDIENTS.elements, id: \.key) { key, value in
             Text(value[lang] ?? "")

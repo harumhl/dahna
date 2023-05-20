@@ -8,6 +8,15 @@
 import Foundation
 import OrderedCollections
 
+//enum Language {
+//    case Korean, English
+//}
+//let K = Language.Korean; let E = Language.English;
+
+func getSelection(key: String) -> String {
+    return (UserDefaults.standard.string(forKey: key) ?? DEFAULTS[key] ?? "")
+}
+
 let TAB_VIEWS: OrderedDictionary = [
     "recipes": ["Korean": "조리법", "English": "Recipes"],
     "menu": ["Korean": "단아의 김치 메뉴", "English": "Dahna's Kimchi Menu"],
@@ -266,12 +275,14 @@ let RECIPE_TERMS: OrderedDictionary = [
     "Ingredients": ["Korean": "재료", "English": "Ingredients"],
     "Recipe": ["Korean": "조리법", "English": "Recipe"],
 ]
-let LANGUAGE_DEFAULT = "Korean"
+let DEFAULTS: OrderedDictionary = [
+    "languages": "Korean",
+    "units": "Metric",
+]
 let LANGUAGES: OrderedDictionary = [
     "Korean": ["Korean": "한글", "English": "Korean"],
     "English": ["Korean": "영어", "English": "English"]
 ]
-let UNIT_DEFAULT = "Metric"
 let UNITS: OrderedDictionary = [
     "Imperial": ["Korean": "미국영국식 (oz/cup/tsp/tbsp/cup)", "English": "Imperial (oz/cup/tsp/tbsp/cup)"],
     "Metric": ["Korean": "미터법 (kg/g/L/mL)", "English": "Metric (kg/g/L/mL)"]
