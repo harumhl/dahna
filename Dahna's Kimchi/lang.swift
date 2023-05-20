@@ -191,9 +191,14 @@ let LANGUAGES: OrderedDictionary = [
     "Korean": ["Korean": "한글", "English": "Korean"],
     "English": ["Korean": "영어", "English": "English"]
 ]
+let UNIT_DEFAULT = "Metric"
 let UNITS: OrderedDictionary = [
     "Imperial": ["Korean": "미국영국식 (oz/cup/tsp/tbsp/cup)", "English": "Imperial (oz/cup/tsp/tbsp/cup)"],
     "Metric": ["Korean": "미터법 (kg/g/L/mL)", "English": "Metric (kg/g/L/mL)"]
+//    Mass: g, oz (kg, lb)
+//    Volume: mL, cup, tsp, tbsp (L, pint, guart, gal)
+//    Length: cm, in, ft (m, yard)
+//    Temperature: C, F
 ]
 let SETTINGS_TITLES: OrderedDictionary = [
     "languages": ["Korean": "언어", "English": "Language"],
