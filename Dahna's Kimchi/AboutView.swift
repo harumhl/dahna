@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct AboutView: View {
+    // TODO mom's history, passion, photos of her and her jar of kimchi, where to buy (embedded map), address
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }

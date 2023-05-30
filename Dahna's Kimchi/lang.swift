@@ -17,6 +17,7 @@ func getSelection(key: String) -> String {
     return (UserDefaults.standard.string(forKey: key) ?? DEFAULTS[key] ?? "")
 }
 
+// TODO move below nested data into some sort of relational db? (Core Data?)
 let TAB_VIEWS: OrderedDictionary = [
     "ingredients": ["Korean": "단아의 김치 재료", "English": "Dahna's Kimchi Ingredients"],
     "menu": ["Korean": "단아의 김치 메뉴", "English": "Dahna's Kimchi Menu"],

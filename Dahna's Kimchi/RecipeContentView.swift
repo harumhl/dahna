@@ -40,6 +40,7 @@ struct RecipeContentView: View {
     let recipe: Recipe
 
     var body: some View {
+        // TODO some logic can be outside of View components! Move logic into logic files
         List{
             Section(header: Text(RECIPE_TERMS["Ingredients"]?[lang] ?? "")) {
                 ForEach(recipe.ingredients) { ingredient in
