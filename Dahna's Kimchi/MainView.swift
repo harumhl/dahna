@@ -9,8 +9,7 @@ import SwiftUI
 
 // Command + Shift + L to see systemImage list
 
-func getTabLabel(key: String) -> String {
-    let lang = getSelection(key: "languages")
+func getTabLabel(key: String, lang: String) -> String {
     return TAB_VIEWS[key]?[lang] ?? ""
 }
 
@@ -21,19 +20,19 @@ struct MainView: View {
         TabView {
             IngredientsView()
                 .tabItem {
-                    Label(getTabLabel(key: "ingredients"), systemImage: "cart.circle.fill")
+                    Label(getTabLabel(key: "ingredients", lang: lang), systemImage: "cart.circle.fill")
                 }
             MenuView()
                 .tabItem {
-                    Label(getTabLabel(key: "menu"), systemImage: "fork.knife.circle")
+                    Label(getTabLabel(key: "menu", lang: lang), systemImage: "fork.knife.circle")
                 }
             AboutView()
                 .tabItem {
-                    Label(getTabLabel(key: "about"), systemImage: "face.smiling")
+                    Label(getTabLabel(key: "about", lang: lang), systemImage: "face.smiling")
                 }
             SettingsView()
                 .tabItem {
-                    Label(getTabLabel(key: "settings"), systemImage: "gear.circle")
+                    Label(getTabLabel(key: "settings", lang: lang), systemImage: "gear.circle")
                 }
         }
     }
