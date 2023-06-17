@@ -117,7 +117,7 @@ let RECIPES: OrderedDictionary = [
                                      RecipeStep(instruction: "고기 준비", photoId: ""),
                                     ]),
     ],
-    "SourKimchiPorkBelly": ["Korean": Recipe(title: "5. 신김치 볶음과 삼겹살과 생야채",
+    "KimchiPorkBelly": ["Korean": Recipe(title: "5. 구운 삼겹살, 볶은 김치, 그리고 생야채와 바질",
                                    ingredients: [
                                     Ingredient(name: "김치", amount: 100, unit: "g"),
                                     Ingredient(name: "양파", amount: 1, unit: "개"),
@@ -128,7 +128,7 @@ let RECIPES: OrderedDictionary = [
                                               RecipeStep(instruction: "밥 하기", photoId: ""),
                                               RecipeStep(instruction: "고기 준비", photoId: ""),
                                              ]),
-                  "English": Recipe(title: "5. Sour Fried Kimchi & Pork Belly & Fresh Vegetables",
+                  "English": Recipe(title: "5. Cooked Pork Belly, Fried Kimchi and Fresh Vegetables and Basil",
                                     ingredients: [
                                      Ingredient(name: "Kimchi", amount: 100, unit: "g"),
                                      Ingredient(name: "Onion", amount: 1, unit: "개"),

@@ -50,7 +50,7 @@ struct RecipeContentView: View {
             Section(header: Text(RECIPE_TERMS["Recipe"]?[lang] ?? "")) {
                 ForEach(recipe.steps) { step in
                     Text("\(step.instruction)")
-                    Image("KimchiFriedRice")
+                    Image("KimchiFriedRice_")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .padding()

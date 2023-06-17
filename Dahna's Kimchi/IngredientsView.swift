@@ -12,11 +12,11 @@ struct PhotosView: View {
     
     var body: some View {
         ForEach(INGREDIENTS.elements, id: \.key) { key, value in
-            Text(value[lang] ?? "")
             Image(key)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .padding()
+            Text(value[lang] ?? "")
         }
     }
 }

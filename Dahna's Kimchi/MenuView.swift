@@ -16,7 +16,7 @@ struct MenuPhotosView: View { // TODO consolidate?
                 NavigationLink(destination: RecipeContentView(recipe: value[lang] ?? Recipe(title: "", ingredients: [], content: "", steps: [])), label: {
                     VStack { // VStack puts Image below Text
                         Text(value[lang]?.title ?? "")
-                        Image("KimchiFriedRice") // TODO replace the str with `key`
+                        Image(key)
                             .renderingMode(.original)
                             .resizable()
                             .aspectRatio(contentMode: .fit)
